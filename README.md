@@ -19,6 +19,18 @@ git config --global user.email johndoe@example.com
 git config --global core.editor nano
 ```
 
+## Creating SSH Keys
+
+This will be a little different on Windows & MacOS/Linux.
+
+```bash
+# if ~/.ssh doesn't exist:
+ssh-keygen 
+# copy the public key to your clipboard
+cat ~/.ssh/id_*.pub
+# give it to Github's settings UI
+```
+
 ## Clone & Create Your Own File:
 
 This will set you up to work with 'best-case scenario git', where you're working on different files than other people.
