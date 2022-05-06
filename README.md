@@ -8,7 +8,7 @@ Create a Github account and send it to the workshop organizer!
 
 ## First Time Git Setup
 
-You may have already done this!
+You may have already done this! If not, open your Terminal.app (MacOS) or Git Bash (Windows):
 
 ```bash
 # Git writes your name and email on your contributions.
@@ -21,7 +21,7 @@ git config --global core.editor nano
 
 ## Creating SSH Keys
 
-This will be a little different on Windows & MacOS/Linux.
+This may be a little different on Windows & MacOS/Linux. But the shortcut for Windows is to open the "Git Bash" program again.
 
 ```bash
 # if ~/.ssh doesn't exist:
