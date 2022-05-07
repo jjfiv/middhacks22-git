@@ -17,6 +17,8 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 # switch from vim to nano / emacs / code / etc.
 git config --global core.editor nano
+# pick a pull behavior:
+git config --global pull.rebase false
 ```
 
 ## Creating SSH Keys
