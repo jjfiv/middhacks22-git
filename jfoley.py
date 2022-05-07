@@ -24,4 +24,3 @@ def print_triangle(n, rev=False):
 if __name__ == '__main__':
   print_triangle(10)
   print(hello())
-  print_triangle(10, rev=True)
